@@ -6,10 +6,5 @@ readme = "README.md"
 requires-python = ">=3.12"
 
 dependencies = [
-    "matplotlib>=3.10.6",
-    "pandas>=2.1.0",
-    "SQLAlchemy>=2.0.43",
-    "pymysql",
-    "enlighten>=1.14.1",
-    "dlt[duckdb,parquet,s3]>=1.8.1",
+    "dlt[cli]",
 ]
