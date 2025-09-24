@@ -1,7 +1,7 @@
 name: Run jaffle_opt pipeline from main.py
 'on':
-  schedule:
-  - cron: '*/30 * * * *'
+  #schedule:
+  #- cron: '*/30 * * * *'
   workflow_dispatch: null
 env:
   EXTRACT__WORKERS: '60'
